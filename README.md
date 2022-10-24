@@ -75,4 +75,27 @@ Add picture of your hand sketched wireframes in this section
 ![image](https://user-images.githubusercontent.com/40023303/196091130-64475e58-7dbe-48e1-a156-2264c2adfd1e.png)
 https://www.figma.com/file/8nOc20QkOwJNA9U6uXXbUW/Untitled?node-id=0%3A1
 
-### [BONUS] Interactive Prototype
+# Milestone 2:
+- [x] XML for each note card in recycler view
+
+# Milestone 3:
+- [ ] Load notes on app open
+- [ ] DAO for Room Database to query all notes, specific note and delete notes
+- [ ] Long Press to delete note
+- [ ] Room Database for notes(name, content, date_created)
+
+# Milestone 4:
+- [ ] Create Navigation Graph
+- [ ] Create bottom navigation menu
+
+# Milestone 5:
+- [ ] Ability to choose font
+- [ ] Ability to change theme
+
+# Milestone 6:
+- [ ] Create Recycler View Fragment for veiwing previously create notes
+- [ ] Create Fragment for creating new note
+
+# Milestone 7:
+- [ ] Toast notification when note is saved
+- [ ] Tap to open to specific notes
