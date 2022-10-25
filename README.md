@@ -77,6 +77,8 @@ https://www.figma.com/file/8nOc20QkOwJNA9U6uXXbUW/Untitled?node-id=0%3A1
 
 # Milestone 2:
 - [x] XML for each note card in recycler view
+![duaihFnR](https://user-images.githubusercontent.com/40023303/197853953-dc9ffccf-8b4e-402a-adb3-67ac8dcfa726.gif)
+
 
 # Milestone 3:
 - [ ] Load notes on app open
