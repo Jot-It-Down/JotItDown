@@ -84,7 +84,6 @@ https://github.com/orgs/Jot-It-Down/projects/1
 
 
 # Milestone 3:
-![duaihFnR](https://user-images.githubusercontent.com/40023303/197853953-dc9ffccf-8b4e-402a-adb3-67ac8dcfa726.gif)
 <img src='./RoomDB.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 - [x] Load notes on app open
