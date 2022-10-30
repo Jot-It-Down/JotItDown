@@ -84,10 +84,13 @@ https://github.com/orgs/Jot-It-Down/projects/1
 
 
 # Milestone 3:
-- [ ] Load notes on app open
-- [ ] DAO for Room Database to query all notes, specific note and delete notes
-- [ ] Long Press to delete note
-- [ ] Room Database for notes(name, content, date_created)
+![duaihFnR](https://user-images.githubusercontent.com/40023303/197853953-dc9ffccf-8b4e-402a-adb3-67ac8dcfa726.gif)
+<img src='./RoomDB.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+- [x] Load notes on app open
+- [x] DAO for Room Database to query all notes, specific note and delete notes
+- [x] Long Press to delete note
+- [x] Room Database for notes(name, content, date_created)
 
 # Milestone 4:
 - [ ] Create Navigation Graph

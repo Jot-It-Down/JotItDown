@@ -27,13 +27,23 @@ class MainActivity : AppCompatActivity(){
         recyclerView.layoutManager = layoutManager
 
         recyclerView.adapter = adapter
-
+        var app = this
         var notes = mutableListOf<Note>()
         lifecycleScope.launch(IO) {
             notes = db.noteDao().getAll().toMutableList()
-            Log.v("notes", notes.toString())
+
             adapter.changeDataSet(notes)
+
         }
+        adapter.db = db
+
+        adapter.delFunc = fun(note) {
+            lifecycleScope.launch(IO) {
+                    db.noteDao().delete(note)
+
+            }
+        }
+        Toast.makeText(app, "Notes Loaded from Database", Toast.LENGTH_SHORT).show()
 
     }
 }
