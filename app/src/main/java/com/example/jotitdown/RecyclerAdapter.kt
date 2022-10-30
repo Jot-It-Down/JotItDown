@@ -6,22 +6,26 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.jotitdown.database.Note
+import com.example.jotitdown.database.NoteDatabase
 
-class RecyclerAdapter:RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
-    private var titles = arrayOf("French Words", "Biology Terminology", "To Do - Fin Tech Prep", "Wish List - Sally Birthday", "Flora and Fauna", "Groceries", "To Do")
-    private var images = intArrayOf(R.drawable.howardlogo, R.drawable.howardlogo, R.drawable.howardlogo, R.drawable.howardlogo, R.drawable.howardlogo, R.drawable.howardlogo, R.drawable.howardlogo)
+class RecyclerAdapter(var notes: MutableList<Note>):RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerAdapter.ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.card_layout, parent, false)
         return  ViewHolder(v)
     }
 
     override fun onBindViewHolder(holder: RecyclerAdapter.ViewHolder, position: Int) {
-        holder.itemTitle.text = titles[position]
-        holder.itemImage.setImageResource(images[position])
+        holder.itemTitle.text = notes[position].title
+        holder.itemImage.setImageResource(R.drawable.howardlogo)
     }
-
+    fun changeDataSet(notes: MutableList<Note>) {
+        this.notes = notes
+        notifyDataSetChanged()
+    }
     override fun getItemCount(): Int {
-        return titles.size
+        return notes.size
     }
 
     inner class ViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
