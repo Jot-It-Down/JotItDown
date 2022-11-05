@@ -92,7 +92,7 @@ https://github.com/orgs/Jot-It-Down/projects/1
 - [x] Room Database for notes(name, content, date_created)
 
 # Milestone 4:
-<img src = "https://submissions.us-east-1.linodeobjects.com/and102/dyvPgmcl.gif" title = "Video Walkthrough" width='' alt='Video Walkthrough' />
+![duaihFnR]"https://submissions.us-east-1.linodeobjects.com/and102/dyvPgmcl.gif"
 
 - [x] Create Navigation Graph
 - [x] Create bottom navigation menu
