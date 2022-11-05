@@ -94,7 +94,7 @@ https://github.com/orgs/Jot-It-Down/projects/1
 # Milestone 4:
 - [x] Create Navigation Graph
 - [x] Create bottom navigation menu
-![](https://submissions.us-east-1.linodeobjects.com/and102/hYshrT6a.gif)
+![](https://submissions.us-east-1.linodeobjects.com/and102/dyvPgmcl.gif)
 
 # Milestone 5:
 - [ ] Ability to choose font
