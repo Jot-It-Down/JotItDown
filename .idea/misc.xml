@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/angel/AndroidStudioProjects/JotItDown/app/src/main/res/drawable-v24/ic_baseline_note_add_24.xml" value="0.1" />
+        <entry key="..\:/Users/angel/AndroidStudioProjects/JotItDown/app/src/main/res/drawable-v24/ic_baseline_notes_24.xml" value="0.1" />
         <entry key="..\:/Users/angel/AndroidStudioProjects/JotItDown/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/angel/AndroidStudioProjects/JotItDown/app/src/main/res/layout/card_layout.xml" value="0.136" />
+        <entry key="..\:/Users/angel/AndroidStudioProjects/JotItDown/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/angel/AndroidStudioProjects/JotItDown/app/src/main/res/layout/fragment_second.xml" value="0.1" />
+        <entry key="..\:/Users/angel/AndroidStudioProjects/JotItDown/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
