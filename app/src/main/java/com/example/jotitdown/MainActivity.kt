@@ -1,23 +1,48 @@
 package com.example.jotitdown
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
-import androidx.lifecycle.lifecycleScope
+import android.view.Menu
+import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.jotitdown.database.Note
 import com.example.jotitdown.database.NoteDatabase
-import kotlinx.coroutines.Dispatchers.IO
-import kotlinx.coroutines.launch
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
+
 class MainActivity : AppCompatActivity(){
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        val inflater = menuInflater
+        inflater.inflate(R.menu.theme_button, menu)
+        return true
+    }
+    var isNightModeOn: Boolean = false;
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val id: Int = item.getItemId()
+        if (id == R.id.themeButton) {
+            //process your onClick here
+            Log.d("abcdef", id.toString());
+
+            if(isNightModeOn){
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            }
+            else{
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+                isNightModeOn = true
+            }
+
+            Log.d(isNightModeOn.toString(), id.toString());
+            return true
+        }
+        return super.onOptionsItemSelected(item)
+    }
 
     private var layoutManager: RecyclerView.LayoutManager? = null
     private val adapter: RecyclerAdapter = RecyclerAdapter(mutableListOf())

@@ -59,14 +59,14 @@ abstract class NoteDatabase : RoomDatabase() {
 
         private fun populateDatabase(db: NoteDatabase) {
             val noteDao = db.noteDao()
-//                noteDao.insertAll(
-//                    Note(0,"Chemistry Notes", "", ""),
-//
-//                    Note(0,"Physics Notes", "", ""),
-//                    Note(0,"Math Notes", "", ""),
-//                    Note(0,"Biology Notes", "", ""),
-//                    Note(0,"Computer Science Notes", "", ""),
-//                )
+/*                noteDao.insertAll(
+                    Note(0,"Chemistry Notes", "", ""),
+
+                    Note(0,"Physics Notes", "", ""),
+                    Note(0,"Math Notes", "", ""),
+                    Note(0,"Biology Notes", "", ""),
+                    Note(0,"Computer Science Notes", "", ""),
+                )*/
 
         }
     }

@@ -48,14 +48,14 @@ class FirstFragment : Fragment() {
         var notes = mutableListOf<Note>()
         lifecycleScope.launch(Dispatchers.IO) {
             notes = db.noteDao().getAll().toMutableList()
-//            db.noteDao().insertAll(
-//                Note(0,"Chemistry Notes", "", ""),
-//
-//                Note(0,"Physics Notes", "", ""),
-//                Note(0,"Math Notes", "", ""),
-//                Note(0,"Biology Notes", "", ""),
-//                Note(0,"Computer Science Notes", "", ""),
-//            )
+/*            db.noteDao().insertAll(
+                Note(0,"Chemistry Notes", "", ""),
+
+                Note(0,"Physics Notes", "", ""),
+                Note(0,"Math Notes", "", ""),
+                Note(0,"Biology Notes", "", ""),
+                Note(0,"Computer Science Notes", "", ""),
+            )*/
 
             adapter.changeDataSet(notes)
 
