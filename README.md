@@ -99,8 +99,10 @@ https://github.com/orgs/Jot-It-Down/projects/1
 
 
 # Milestone 5:
-- [ ] Ability to choose font
-- [ ] Ability to change theme
+- [x] Ability to choose night mode
+- [x] Ability to change theme
+
+![Milestone5](https://user-images.githubusercontent.com/40023303/201687793-e99b20cf-a7b7-4a41-89ad-88c34f464ffb.gif)
 
 # Milestone 6:
 - [ ] Create Recycler View Fragment for veiwing previously create notes
