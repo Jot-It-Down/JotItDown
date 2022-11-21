@@ -107,8 +107,12 @@ https://github.com/orgs/Jot-It-Down/projects/1
 
 
 # Milestone 6:
-- [ ] Create Recycler View Fragment for veiwing previously create notes
-- [ ] Create Fragment for creating new note
+- [x] Create Recycler View Fragment for veiwing previously create notes
+- [x] Create Fragment for creating new note
+
+
+![Milestone6](https://user-images.githubusercontent.com/40023303/202968593-9c2bbe5e-d68c-49f1-8102-5a0cf94ce7f3.gif)
+
 
 # Milestone 7:
 - [ ] Toast notification when note is saved
