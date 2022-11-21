@@ -102,7 +102,9 @@ https://github.com/orgs/Jot-It-Down/projects/1
 - [x] Ability to choose night mode
 - [x] Ability to change theme
 
-![Milestone5](https://user-images.githubusercontent.com/40023303/201687793-e99b20cf-a7b7-4a41-89ad-88c34f464ffb.gif)
+
+![Milestone5](https://user-images.githubusercontent.com/40023303/201699049-671d74b0-c7a1-4235-b37f-b58ad38630a9.gif)
+
 
 # Milestone 6:
 - [ ] Create Recycler View Fragment for veiwing previously create notes
