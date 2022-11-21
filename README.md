@@ -111,7 +111,8 @@ https://github.com/orgs/Jot-It-Down/projects/1
 - [x] Create Fragment for creating new note
 
 
-![Milestone6](https://user-images.githubusercontent.com/40023303/202968593-9c2bbe5e-d68c-49f1-8102-5a0cf94ce7f3.gif)
+![Milestone6](https://user-images.githubusercontent.com/40023303/202969057-eaf65545-107b-4b31-aca7-97c31445d5ac.gif)
+
 
 
 # Milestone 7:
