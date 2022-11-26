@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity(){
     }
     var isNightModeOn: Boolean = false;
 
+
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id: Int = item.getItemId()
         if (id == R.id.themeButton) {

@@ -6,10 +6,10 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 
 @Entity
 data class Note(
-    @PrimaryKey(autoGenerate = true) val uid: Int = 0,
-    @ColumnInfo(name = "title") val title: String,
-    @ColumnInfo(name = "content") val content: String,
-    @ColumnInfo(name = "image") val image: String
+    @PrimaryKey(autoGenerate = true) var uid: Int = 0,
+    @ColumnInfo(name = "title") var title: String,
+    @ColumnInfo(name = "content") var content: String,
+    @ColumnInfo(name = "image") var image: String
 )
 
 @Dao

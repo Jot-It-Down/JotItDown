@@ -1,20 +1,18 @@
 package com.example.jotitdown
 
-import android.util.Log
+
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import androidx.annotation.WorkerThread
-import androidx.lifecycle.lifecycleScope
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.jotitdown.database.Note
 import com.example.jotitdown.database.NoteDatabase
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.launch
+
 
 class RecyclerAdapter(var notes: MutableList<Note>):RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
 
@@ -30,6 +28,18 @@ class RecyclerAdapter(var notes: MutableList<Note>):RecyclerView.Adapter<Recycle
         holder.itemImage.setImageResource(R.drawable.howardlogo)
 
 
+        holder.itemView.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putInt("uid", notes[position].uid)
+            bundle.putString("title", notes[position].title)
+            bundle.putString("content", notes[position].content)
+            bundle.putString("image", notes[position].image)
+
+            val sf = SecondFragment()
+            sf.arguments = bundle
+            val activity = it.context as AppCompatActivity
+            activity.supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView, sf).addToBackStack(null).commit()
+        }
         holder.itemView.setOnLongClickListener {
 
 
