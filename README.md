@@ -103,7 +103,7 @@ https://github.com/orgs/Jot-It-Down/projects/1
 - [x] Ability to change theme
 
 
-![Milestone5](h![](FinalApp.gif)ttps://user-images.githubusercontent.com/40023303/201699049-671d74b0-c7a1-4235-b37f-b58ad38630a9.gif)
+![Milestone5](https://user-images.githubusercontent.com/40023303/201699049-671d74b0-c7a1-4235-b37f-b58ad38630a9.gif)
 
 
 # Milestone 6:
