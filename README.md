@@ -119,5 +119,5 @@ https://github.com/orgs/Jot-It-Down/projects/1
 - [x] Toast notification when note is saved
 - [x] Tap to open to specific notes
 
-![Milestone7](https://submissions.us-east-1.linodeobjects.com/and102/xAKIajnR.gif)
+![Milestone7](./FinalApp.gif)
 
